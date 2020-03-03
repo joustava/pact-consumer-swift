@@ -10,9 +10,6 @@ let package = Package(
   products: [
     .library(name: "PactConsumerSwift", targets: ["PactConsumerSwift"])
   ],
-  dependencies: [
-    //.package(url: "https://github.com/Quick/Nimble.git", from: "8.0.0")
-  ],
   targets: [
     .target(
       name: "PactConsumerSwift",
